@@ -69,9 +69,11 @@ async def get_birads_descriptions():
 async def root():
     return {"message": "Welcome to the Breast Cancer Analysis API", "status": "active"}
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+# used in development to run the server locally
+# Uncomment the following lines to run the server locally
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run(app, host="127.0.0.1", port=8000)
 
 
 
