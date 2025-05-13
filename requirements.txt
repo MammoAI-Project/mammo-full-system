@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+seaborn
+Pillow
+scikit-learn
+tensorflow
+streamlit
+fastapi[standard]
+requests
+uvicorn
+python-multipart
+opencv-python
