@@ -6,10 +6,10 @@ import base64
 import uuid
 from PIL import Image
 import cv2
-from .enhancement import apply_clahe_enhancement
-from .gradcam import apply_gradcam
-from .uncertainty import uncertainty_quantification
-from .schema import AnalysisResponse, BranchResult
+from api.enhancement import apply_clahe_enhancement
+from api.gradcam import apply_gradcam
+from api.uncertainty import uncertainty_quantification
+from api.schema import AnalysisResponse, BranchResult
 
 
 # Define BIRADS descriptions
