@@ -34,7 +34,7 @@ model = None
 def load_ai_model():
     global model
     try:
-        model = load_model("backend/model/best_breast_cancer_model.h5")
+        model = load_model("model/best_breast_cancer_model.h5")
         print("Model loaded successfully")
         return True
     except Exception as e:
