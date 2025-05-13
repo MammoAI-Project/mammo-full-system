@@ -3,8 +3,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from typing import Dict, List, Optional, Any
 import tensorflow as tf
 from tensorflow.keras.models import load_model
-from .schema import AnalysisResponse
-from .process import process_image
+from api.schema import AnalysisResponse
+from api.process import process_image
 
 app = FastAPI(
     title="Breast Cancer Analysis API",
