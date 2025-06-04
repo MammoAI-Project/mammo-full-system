@@ -253,7 +253,7 @@ def main():
     show_recommendations = st.sidebar.checkbox("Show Recommendations", value=True)
     
     # Add sidebar info box about BI-RADS categories
-    st.sidebar.subheader("BI-RADS Categories")
+    st.sidebar.subheader("Categories")
     st.sidebar.info("""
     **CL 1:** Normal
     
